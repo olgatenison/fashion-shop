@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fation-shop/static/css/main.978cf7a6.css",
+    "main.js": "/fation-shop/static/js/main.f6f297c0.js",
+    "static/media/header-img.jpg": "/fation-shop/static/media/header-img.3266b145a803ea6064bc.jpg",
+    "static/media/cat-03.jpg": "/fation-shop/static/media/cat-03.eb55f780a8fbbaf39b98.jpg",
+    "static/media/cat-01.jpg": "/fation-shop/static/media/cat-01.c4e2270f3eab9f7477cf.jpg",
+    "static/media/cat-02.jpg": "/fation-shop/static/media/cat-02.da44a5e6d64780d948d6.jpg",
+    "static/media/esprit.png": "/fation-shop/static/media/esprit.f8325a146152a8f44b03.png",
+    "static/media/hmlogo.png": "/fation-shop/static/media/hmlogo.20de471a2ab946842311.png",
+    "static/media/zara.png": "/fation-shop/static/media/zara.268d739234f578c5e7cc.png",
+    "static/media/logo.svg": "/fation-shop/static/media/logo.fa6ed5442940b2375841123db8c623be.svg",
+    "index.html": "/fation-shop/index.html",
+    "static/media/arrow.svg": "/fation-shop/static/media/arrow.9d4f9d5e31a0e0b90396898109d19746.svg",
+    "static/media/decor-yellow.svg": "/fation-shop/static/media/decor-yellow.a14a51327547871fd595.svg",
+    "main.978cf7a6.css.map": "/fation-shop/static/css/main.978cf7a6.css.map",
+    "main.f6f297c0.js.map": "/fation-shop/static/js/main.f6f297c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.978cf7a6.css",
+    "static/js/main.f6f297c0.js"
+  ]
+}
