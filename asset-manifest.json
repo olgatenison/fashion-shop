@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fation-shop/static/css/main.978cf7a6.css",
-    "main.js": "/fation-shop/static/js/main.f6f297c0.js",
+    "main.css": "/fation-shop/static/css/main.4a1ad083.css",
+    "main.js": "/fation-shop/static/js/main.e695c09e.js",
     "static/media/header-img.jpg": "/fation-shop/static/media/header-img.3266b145a803ea6064bc.jpg",
     "static/media/cat-03.jpg": "/fation-shop/static/media/cat-03.eb55f780a8fbbaf39b98.jpg",
     "static/media/cat-01.jpg": "/fation-shop/static/media/cat-01.c4e2270f3eab9f7477cf.jpg",
@@ -13,11 +13,11 @@
     "index.html": "/fation-shop/index.html",
     "static/media/arrow.svg": "/fation-shop/static/media/arrow.9d4f9d5e31a0e0b90396898109d19746.svg",
     "static/media/decor-yellow.svg": "/fation-shop/static/media/decor-yellow.a14a51327547871fd595.svg",
-    "main.978cf7a6.css.map": "/fation-shop/static/css/main.978cf7a6.css.map",
-    "main.f6f297c0.js.map": "/fation-shop/static/js/main.f6f297c0.js.map"
+    "main.4a1ad083.css.map": "/fation-shop/static/css/main.4a1ad083.css.map",
+    "main.e695c09e.js.map": "/fation-shop/static/js/main.e695c09e.js.map"
   },
   "entrypoints": [
-    "static/css/main.978cf7a6.css",
-    "static/js/main.f6f297c0.js"
+    "static/css/main.4a1ad083.css",
+    "static/js/main.e695c09e.js"
   ]
 }
