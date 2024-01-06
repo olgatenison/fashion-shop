@@ -1,0 +1,44 @@
+.title {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+/* :root {
+  --hover-color: #ff5733;
+  --yellow-bg: #ffc700;
+} */
+
+.bg {
+  padding: 50px;
+  background-color: var(--yellow);
+}
+/* Define the keyframes for stroke-dasharray and stroke-dashoffset animation */
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Apply the animation to each path within the SVG */
+#logo path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: draw 2s ease forwards;
+}
+
+/* Add animation for filling the text */
+@keyframes fillText {
+  to {
+    fill: #fff; /* Change the color to your preference */
+  }
+}
+
+/* Apply the fill animation to the text */
+/* #logo:hover {
+  animation: fillText 0.3s ease-in-out forwards;
+} */
+
+/* Add hover styles */
+.title.hovered #logo {
+  fill: var(--hover-color);
+}
