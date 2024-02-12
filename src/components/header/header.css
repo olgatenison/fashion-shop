@@ -13,6 +13,8 @@
   display: flex;
   align-items: center;
   column-gap: 13px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
 
 .header__logo span {
@@ -38,11 +40,14 @@
 
 .header__nav a {
   color: var(--text-color);
+  transition: all 0.3s ease 0s;
 }
-
+.header__nav-btn {
+  display: block;
+}
 .header__nav-btn,
 a.header__nav-btn {
-  padding: 13px 22px 17px;
+  padding: 13px 22px 13px;
   background-color: #000;
   border-radius: 7px;
 
@@ -52,7 +57,200 @@ a.header__nav-btn {
   letter-spacing: -0.03em;
   color: #fff;
   opacity: 1;
+  transition: all 0.3s ease 0s;
 }
-.header__nav a:hover {
+
+.hamburger {
+  display: none;
+}
+
+.header__logo:hover,
+.header__logo:focus,
+.header__logo:active,
+.header__link a:hover,
+.header__link a:focus,
+.header__link a:active {
   opacity: 0.4;
+}
+.header__nav-btn:active,
+.header__nav-btn:hover,
+.header__nav-btn:focus {
+  background-color: #ffc700;
+  color: #000;
+}
+
+/* -------------media--------------- */
+/* -------------media--------------- */
+/* -------------media--------------- */
+/* -------------media--------------- */
+/* -------------media--------------- */
+/* -------------media--------------- */
+
+@media screen and (max-width: 1220px) {
+  .header__logo span {
+    font-size: 24px;
+  }
+  .header__nav {
+    font-size: 16px;
+    flex-wrap: wrap;
+  }
+  .header__nav-btn,
+  a.header__nav-btn {
+    padding: 13px 22px 17px;
+    font-size: 16px;
+  }
+  .header__nav ul {
+    column-gap: 25px;
+  }
+}
+
+/* -------------media--------------- */
+/* -------------media--------------- */
+/* -------------media--------------- */
+/* -------------media--------------- */
+/* -------------media--------------- */
+/* -------------media--------------- */
+
+@media screen and (max-width: 767px) {
+  .header__logo {
+    margin-left: 15px;
+  }
+  .header__logo span {
+    font-size: 32px;
+  }
+  .header__nav {
+    display: none;
+  }
+
+  /* header */
+  .hamburger {
+    display: block;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+
+  .hamburger .line {
+    width: 50px;
+    height: 5px;
+    background-color: #000;
+    display: block;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hamburger:hover {
+    cursor: pointer;
+  }
+  #hamburger {
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #hamburger.is-active {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  #hamburger:before {
+    content: '';
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    border: 5px solid transparent;
+    top: calc(50% - 35px);
+    left: calc(50% - 35px);
+    border-radius: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #hamburger.is-active:before {
+    border: 5px solid #ecf0f1;
+  }
+
+  #hamburger.is-active .line {
+    width: 35px;
+  }
+
+  #hamburger.is-active .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  #hamburger.is-active .line:nth-child(1) {
+    -webkit-transform: translateY(13px);
+    -ms-transform: translateY(13px);
+    -o-transform: translateY(13px);
+    transform: translateY(13px);
+  }
+
+  #hamburger.is-active .line:nth-child(3) {
+    -webkit-transform: translateY(-13px) rotate(90deg);
+    -ms-transform: translateY(-13px) rotate(90deg);
+    -o-transform: translateY(-13px) rotate(90deg);
+    transform: translateY(-13px) rotate(90deg);
+  }
+
+  /* mob menu */
+  .header_mobmenu {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 200;
+    background-color: #ffffff;
+  }
+  .header__nav_m {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+  }
+  .header__list_m {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .header__nav_m a {
+    color: var(--text-color);
+  }
+  .header__nav-btn_m,
+  a.header__nav-btn_m {
+    font-size: 16px;
+    padding: 13px 35px;
+
+    background-color: #000;
+    border-radius: 7px;
+    display: block;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    color: #fff;
+    opacity: 1;
+  }
+  .header__nav_m {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+  }
+  .header__btn_m {
+    margin-top: 40px;
+  }
 }

@@ -1,7 +1,19 @@
 import logoImg from './../../img/icons/logo.svg';
 import './header.css';
+import MobMenu from './mobMenu/MobMenu';
+import React, { useState } from 'react';
 
 function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <header className="header">
       <div className="container">
@@ -12,16 +24,16 @@ function Header() {
           </div>
           <nav className="header__nav">
             <ul>
-              <li>
+              <li className="header__link">
                 <a href="#!">CATALOGUE</a>
               </li>
-              <li>
+              <li className="header__link">
                 <a href="#!">FASHION</a>
               </li>
-              <li>
+              <li className="header__link">
                 <a href="#!">FAVOURITE</a>
               </li>
-              <li>
+              <li className="header__link">
                 <a href="#!">LIFESTYLE</a>
               </li>
               <li>
@@ -31,6 +43,16 @@ function Header() {
               </li>
             </ul>
           </nav>
+          <div
+            className={`hamburger ${isMenuOpen ? 'is-active' : ''}`}
+            id="hamburger"
+            onClick={toggleMenu}
+          >
+            <span className="line"></span>
+            <span className="line"></span>
+            <span className="line"></span>
+          </div>
+          {isMenuOpen && <MobMenu onClose={closeMenu} />}
         </div>
       </div>
     </header>
