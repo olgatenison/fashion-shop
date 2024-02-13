@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fashion-shop/static/css/main.dfc817fc.css",
-    "main.js": "/fashion-shop/static/js/main.bcb753ce.js",
+    "main.css": "/fashion-shop/static/css/main.17e4a4b5.css",
+    "main.js": "/fashion-shop/static/js/main.39d17df0.js",
     "static/media/header-img.jpg": "/fashion-shop/static/media/header-img.3266b145a803ea6064bc.jpg",
     "static/media/promo-img.jpg": "/fashion-shop/static/media/promo-img.527fa310359de2170668.jpg",
     "static/media/cat-03.jpg": "/fashion-shop/static/media/cat-03.eb55f780a8fbbaf39b98.jpg",
@@ -14,11 +14,11 @@
     "index.html": "/fashion-shop/index.html",
     "static/media/arrow.svg": "/fashion-shop/static/media/arrow.9d4f9d5e31a0e0b90396898109d19746.svg",
     "static/media/decor-yellow.svg": "/fashion-shop/static/media/decor-yellow.a14a51327547871fd595.svg",
-    "main.dfc817fc.css.map": "/fashion-shop/static/css/main.dfc817fc.css.map",
-    "main.bcb753ce.js.map": "/fashion-shop/static/js/main.bcb753ce.js.map"
+    "main.17e4a4b5.css.map": "/fashion-shop/static/css/main.17e4a4b5.css.map",
+    "main.39d17df0.js.map": "/fashion-shop/static/js/main.39d17df0.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfc817fc.css",
-    "static/js/main.bcb753ce.js"
+    "static/css/main.17e4a4b5.css",
+    "static/js/main.39d17df0.js"
   ]
 }
