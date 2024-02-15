@@ -1,5 +1,5 @@
 import './sale.css';
-import saleImg from './../../img/images/y-woman.png';
+import saleImg from './../../img/images/y_woman.png';
 
 export default function Sale() {
   return (
@@ -10,12 +10,12 @@ export default function Sale() {
             <div className="sale__img">
               <img src={saleImg} alt="sale" />
             </div>
-
             <div className="sale__text">
               <div className="sale__title">
                 <span className="highlight">
                   <span>PAYDAY</span>
                 </span>
+                <br />
                 SALE NOW
               </div>
 

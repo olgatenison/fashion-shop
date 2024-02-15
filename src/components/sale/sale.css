@@ -6,6 +6,9 @@
 .sale__content {
   display: flex;
   column-gap: 30px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 /* 
@@ -15,7 +18,7 @@
 } */
 .sale__title {
   max-width: 530px;
-  padding-top: 140px;
+
   margin-bottom: 40px;
   font-weight: 900;
   font-size: 96px;
@@ -50,6 +53,7 @@
 .highlight span {
   position: relative;
   z-index: 1;
+  display: block;
 }
 .highlight::before {
   content: '';
@@ -58,9 +62,9 @@
   top: -12px;
   bottom: 0px;
   left: -40px;
-  right: -160px;
+  right: -90px;
   background-color: #fff;
-  transform: rotate(-2deg);
+  transform: rotate(-4deg);
 }
 .sale__btn-wrapper {
   margin-top: 80px;
@@ -72,7 +76,22 @@
   background-color: #ffc700;
   color: #000;
 }
-
+.sale__img {
+  width: 700px;
+  padding-right: 50px;
+  position: relative;
+}
+/* .sale__img::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -150px;
+  width: 800px;
+  height: 300px;
+  background: url(../img/images/sale.svg) no-repeat right center;
+  z-index: 2;
+  fill: #fff;
+} */
 /* -------------media--------------- */
 /* -------------media--------------- */
 /* -------------media--------------- */
@@ -81,12 +100,17 @@
 /* -------------media--------------- */
 
 @media screen and (max-width: 1220px) {
+  .sale__img {
+    width: 500px;
+    padding-right: 30px;
+    position: relative;
+  }
   .sale__title {
     max-width: 360px;
-    padding-top: 60px;
+    padding-top: 30px;
     margin-bottom: 40px;
 
-    font-size: 42px;
+    font-size: 45px;
   }
   .highlight::before {
     content: '';
@@ -95,9 +119,9 @@
     top: -12px;
     bottom: 0px;
     left: -40px;
-    right: -100px;
+    right: -70px;
     background-color: #fff;
-    transform: rotate(-2deg);
+    transform: rotate(-4deg);
   }
   .sale__desc {
     margin-bottom: 18px;
@@ -105,6 +129,80 @@
     font-size: 20px;
     line-height: calc(48 / 32);
     letter-spacing: -0.05em;
-    max-width: 600px;
+    max-width: 400px;
+  }
+  .sale__btn-wrapper {
+    margin-top: 40px;
+  }
+  .sale__btn {
+    padding: 13px 22px 17px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sale__title {
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .highlight::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -12px;
+    bottom: 0px;
+    left: -60px;
+    right: -60px;
+    background-color: #fff;
+    transform: rotate(-4deg);
+  }
+  .sale__content {
+    display: flex;
+    column-gap: 30px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: end;
+    margin: 0 auto;
+  }
+
+  .sale__img {
+    margin: 0 auto;
+    width: 270px;
+    padding-right: 0px;
+    position: relative;
+  }
+  .sale__text {
+    margin: 0 auto;
+  }
+  .sale__desc {
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: calc(48 / 32);
+    letter-spacing: -0.05em;
+    max-width: 300px;
+    text-align: center;
+  }
+  .sale__btn-wrapper {
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .sale__btn {
+    display: block;
+
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .sale__img {
+    display: none;
+  }
+  .sale__content {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }

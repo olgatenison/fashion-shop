@@ -1,4 +1,3 @@
-import logoImg from './../../img/icons/logo.svg';
 import './header.css';
 import MobMenu from './mobMenu/MobMenu';
 import React, { useState } from 'react';
@@ -19,8 +18,7 @@ function Header() {
       <div className="container">
         <div className="header__row">
           <div className="header__logo">
-            <img src={logoImg} alt="Logo" />
-            <span>Fashion</span>
+            <span>U.CLOTHES</span>
           </div>
           <nav className="header__nav">
             <ul>
