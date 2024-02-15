@@ -1,5 +1,5 @@
 import './sale.css';
-import saleImg from './../../img/images/promo-img.jpg';
+import saleImg from './../../img/images/y-woman.png';
 
 export default function Sale() {
   return (
