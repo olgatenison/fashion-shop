@@ -4,17 +4,19 @@ import Brands from 'components/brands/Brands';
 import Arrivals from 'components/arrivals/Arrivals';
 import Sale from 'components/sale/Sale';
 // import Login from 'pages/login/Login';
-// import ShopCommunity from 'components/shopcommunity/ShopCommunity';
+// import Community from 'components/community/Community';
 import Footer from 'components/footer/Footer';
+import Favorite from 'components/favourite/Favorite';
 
 export const App = () => {
   return (
     <div className="App">
-      {/* <ShopCommunity /> */}
+      {/* <Community /> */}
       {/* <Login /> */}
 
       <Header />
       <Sale />
+      <Favorite />
       <Promo />
       <Brands />
       <Arrivals />

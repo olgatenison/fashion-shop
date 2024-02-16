@@ -1,0 +1,52 @@
+.favorite {
+  padding-bottom: 80px;
+}
+.favorite__header {
+  margin-bottom: 80px;
+}
+.favorite__title {
+  font-family: 'Poppins';
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.favorite__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 35px;
+}
+
+/* -------------media--------------- */
+/* -------------media--------------- */
+/* -------------media--------------- */
+/* -------------media--------------- */
+/* -------------media--------------- */
+/* -------------media--------------- */
+
+@media screen and (max-width: 1220px) {
+  .favorite {
+    padding-bottom: 30px;
+  }
+  .favorite__header {
+    margin-bottom: 40px;
+  }
+  .favorite__title {
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: 900;
+  }
+}
+@media screen and (max-width: 767px) {
+  .favorite__cards {
+    display: flex;
+    flex-direction: column;
+
+    gap: 35px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .favorite__title {
+    font-size: 24px;
+  }
+}

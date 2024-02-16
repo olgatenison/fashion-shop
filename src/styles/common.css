@@ -2,6 +2,7 @@
   --textColor: #000;
   --yellow: #ffc700;
   --gray: #7f7f7f;
+  --l-gray: #b2b2b2;
   --hover-color: #ff5733;
 }
 
@@ -28,7 +29,7 @@ body {
   line-height: 1.04;
   letter-spacing: 0.06em;
 }
-
+/* 
 .title-2::after {
   content: '';
 
@@ -41,4 +42,9 @@ body {
 
   background-image: url('./../img/icons/decor-yellow.svg');
   background-repeat: no-repeat;
+} */
+@media screen and (max-width: 375px) {
+  .title-2 {
+    font-size: 24px;
+  }
 }

@@ -254,3 +254,8 @@ a.header__nav-btn {
     margin-top: 40px;
   }
 }
+@media screen and (max-width: 375px) {
+  .header__logo span {
+    font-size: 24px;
+  }
+}

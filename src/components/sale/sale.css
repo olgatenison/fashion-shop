@@ -1,5 +1,5 @@
 .sale {
-  margin-bottom: 190px;
+  margin-bottom: 100px;
   background: var(--yellow);
 }
 
@@ -198,6 +198,9 @@
   }
 }
 @media screen and (max-width: 375px) {
+  .sale {
+    margin-bottom: 60px;
+  }
   .sale__img {
     display: none;
   }

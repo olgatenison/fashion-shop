@@ -1,5 +1,5 @@
-import './shopcommunity.css';
-export default function ShopCommunity() {
+import './community.css';
+export default function Community() {
   return (
     <>
       <section className="community">
