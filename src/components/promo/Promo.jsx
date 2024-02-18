@@ -12,10 +12,6 @@ const Promo = () => {
                 <span>LET’S</span>
               </span>
               EXPLORE
-              {/* <span className="highlight highlight--yellow">
-								<span>UNIQUE</span>
-							</span>
-							CLOTHES. */}
             </div>
             <Title />
             <div className="promo__desc">
@@ -27,9 +23,6 @@ const Promo = () => {
               </a>
             </div>
           </div>
-          {/* <div className="promo__img">
-            <img src={promoImg} alt="Promo" />
-          </div> */}
         </div>
       </div>
     </section>

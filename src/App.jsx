@@ -11,15 +11,15 @@ import Favorite from 'components/favourite/Favorite';
 export const App = () => {
   return (
     <div className="App">
-      {/* <Community /> */}
       {/* <Login /> */}
 
       <Header />
-      <Sale />
-      <Favorite />
       <Promo />
       <Brands />
       <Arrivals />
+      <Sale />
+      <Favorite />
+      {/* <Community /> */}
       <Footer />
     </div>
   );
