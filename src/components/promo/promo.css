@@ -1,44 +1,50 @@
 .promo {
   margin-bottom: 63px;
-  /* background-image: url(../../img//hero/hero.jpg); */
 }
 
 .promo__content {
   display: flex;
+  height: 900px;
   column-gap: 24px;
   padding-top: 68px;
   padding-left: 120px;
   border-radius: 59px;
   background-size: cover;
-
+  background-image: url(../img/images/hero.jpg);
+  background-position: 15%;
   background-color: #f4f6f5;
 }
 
-.promo__title {
+/* .promo__title {
   max-width: 480px;
   margin-bottom: 40px;
   font-weight: 900;
   font-size: 96px;
   line-height: 1.25;
+} */
+.promo__text {
+  margin-top: 290px;
 }
-
 .promo__desc {
+  margin-top: -40px;
   margin-bottom: 32px;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 24px;
   line-height: calc(48 / 32);
   letter-spacing: -0.05em;
+  padding-left: 50px;
 }
 
 .promo__btn-wrapper {
   display: flex;
   column-gap: 34px;
   align-items: center;
+  margin-top: 80px;
 }
 
 .promo__btn {
-  padding: 18px 40px;
-
+  padding: 18px 90px;
+  margin-left: 50px;
   background: #000000;
   border-radius: 10px;
 

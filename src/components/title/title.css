@@ -10,7 +10,7 @@
 
 .bg {
   padding: 50px;
-  background-color: var(--yellow);
+  /* background-color: var(--yellow); */
 }
 /* Define the keyframes for stroke-dasharray and stroke-dashoffset animation */
 @keyframes draw {
