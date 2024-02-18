@@ -1,5 +1,5 @@
 import styles from './Card.module.css';
-// import cat01Img from './../../img/categories/cat-01.jpg';
+
 import arrowImg from './../../img/icons/arrow.svg';
 
 const Card = ({ title, img }) => {

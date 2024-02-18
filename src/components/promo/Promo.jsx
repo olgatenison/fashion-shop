@@ -1,5 +1,4 @@
 import './promo.css';
-import promoImg from './../../img/images/header-img.jpg';
 import Title from 'components/title/Title';
 
 const Promo = () => {
@@ -28,9 +27,9 @@ const Promo = () => {
               </a>
             </div>
           </div>
-          <div className="promo__img">
+          {/* <div className="promo__img">
             <img src={promoImg} alt="Promo" />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -12,8 +12,8 @@ const Favorite = () => {
           <h2 className="favorite__title">Young’s Favourite</h2>
         </div>
         <div className="favorite__cards">
-          <Card title="Trending on instagram" img={favImg01} />
-          <Card title="All Under $40" img={FavImg02} />
+          <Card title="Trending on Instagram" img={favImg01} />
+          <Card title="Summer Sale" img={FavImg02} />
         </div>
       </div>
     </section>
