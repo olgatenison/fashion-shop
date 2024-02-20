@@ -12,6 +12,7 @@
   justify-content: space-between;
   column-gap: 30px;
 }
+
 @media screen and (max-width: 375px) {
   .arrivals {
     padding-top: 60px;

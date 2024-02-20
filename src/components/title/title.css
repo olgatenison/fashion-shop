@@ -3,10 +3,6 @@
   position: relative;
   overflow: hidden;
 }
-/* :root {
-  --hover-color: #ff5733;
-  --yellow-bg: #ffc700;
-} */
 
 .bg {
   padding: 50px;
@@ -33,12 +29,14 @@
   }
 }
 
-/* Apply the fill animation to the text */
-/* #logo:hover {
-  animation: fillText 0.3s ease-in-out forwards;
-} */
-
 /* Add hover styles */
 .title.hovered #logo {
   fill: var(--hover-color);
+}
+
+@media screen and (max-width: 767px) {
+  #logo {
+    width: 488px;
+    height: 112px;
+  }
 }
