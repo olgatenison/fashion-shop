@@ -4,6 +4,7 @@
   --gray: #7f7f7f;
   --l-gray: #b2b2b2;
   --hover-color: #ff5733;
+  --white: #fff;
 }
 
 body {
@@ -29,20 +30,7 @@ body {
   line-height: 1.04;
   letter-spacing: 0.06em;
 }
-/* 
-.title-2::after {
-  content: '';
 
-  position: absolute;
-  z-index: -1;
-  right: 0px;
-  bottom: 0px;
-  width: 190px;
-  height: 32px;
-
-  background-image: url('./../img/icons/decor-yellow.svg');
-  background-repeat: no-repeat;
-} */
 @media screen and (max-width: 375px) {
   .title-2 {
     font-size: 24px;
