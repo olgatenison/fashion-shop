@@ -113,3 +113,23 @@
     font-size: 32px;
   }
 }
+@media screen and (max-width: 500px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-sizing: border-box;
+    padding: 80px 20px;
+  }
+  .footer__social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__desc {
+    display: none;
+  }
+}

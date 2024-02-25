@@ -13,7 +13,6 @@
 
 .sale__title {
   max-width: 530px;
-
   margin-bottom: 40px;
   font-weight: 900;
   font-size: 96px;
@@ -35,10 +34,8 @@
 
 .sale__btn {
   padding: 18px 40px;
-
   background: #000000;
   border-radius: 10px;
-
   font-weight: 500;
   font-size: 30px;
   line-height: 1.5;
@@ -94,7 +91,6 @@
     max-width: 360px;
     padding-top: 30px;
     margin-bottom: 40px;
-
     font-size: 45px;
   }
   .highlight::before {
@@ -148,10 +144,9 @@
     column-gap: 30px;
     flex-direction: column-reverse;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
     margin: 0 auto;
   }
-
   .sale__img {
     margin: 0 auto;
     width: 270px;
@@ -177,11 +172,11 @@
   }
   .sale__btn {
     display: block;
-
     margin: 0 auto;
     text-align: center;
   }
 }
+
 @media screen and (max-width: 375px) {
   .sale {
     margin-bottom: 60px;
