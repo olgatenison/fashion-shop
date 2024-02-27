@@ -12,7 +12,18 @@
   justify-content: space-between;
   column-gap: 30px;
 }
-
+@media screen and (max-width: 767px) {
+  .arrivals__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .title-2 {
+    margin-left: 40px;
+  }
+}
 @media screen and (max-width: 375px) {
   .arrivals {
     padding-top: 60px;
