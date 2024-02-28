@@ -12,18 +12,18 @@ export default function Community() {
           <div className="community__desc">
             Type your email down below and be young wild generation
           </div>
-          <form className="form">
-            <label>
+          <div>
+            <form className="wrap">
               <input
                 className="input_email"
                 type="text"
                 placeholder="Add your email here"
               />
-            </label>
-            <button className="input_btn" type="submit">
-              SEND
-            </button>
-          </form>
+              <button className="btn" type="submit">
+                SEND
+              </button>
+            </form>
+          </div>
         </div>
       </section>
     </>

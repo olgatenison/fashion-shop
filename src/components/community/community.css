@@ -1,12 +1,11 @@
 .community {
   background-color: var(--yellow);
-  margin: 0 auto;
 }
 
 .community__content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   gap: 37px;
   padding-top: 141px;
   padding-bottom: 156px;
@@ -18,7 +17,7 @@
   font-size: 55px;
   line-height: 127%;
   letter-spacing: 0.03em;
-  text-align: center;
+
   color: var(--white);
 }
 
@@ -29,13 +28,19 @@
   line-height: 109%;
   letter-spacing: 0.03em;
   color: var(--white);
-  text-align: center;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--white);
+  border-radius: 8px;
+  width: 575px;
+  height: 87px;
 }
 
 .input_email {
-  border-radius: 10px;
-  width: 574px;
-  height: 87px;
   background: var(--white);
   padding-left: 30px;
   font-family: var(--font-family);
@@ -45,23 +50,16 @@
   letter-spacing: 0.03em;
   color: var(--gray);
 }
-
-.input_btn {
-  background: var(--textColor);
-  border-radius: 8px;
+.btn {
+  text-align: center;
+  margin: 0 auto;
   width: 161px;
   height: 67px;
   font-weight: 500;
   font-size: 30px;
-  line-height: 1.5;
+  line-height: 1;
   letter-spacing: -0.05em;
-  color: var(--white);
-  position: relative;
-  right: 170px;
-  top: 2px;
-}
-
-.form {
+  background-color: #000;
+  color: #fff;
   display: block;
-  margin: 0 auto;
 }

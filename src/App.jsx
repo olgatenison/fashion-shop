@@ -4,7 +4,7 @@ import Brands from 'components/brands/Brands';
 import Arrivals from 'components/arrivals/Arrivals';
 import Sale from 'components/sale/Sale';
 // import Login from 'pages/login/Login';
-// import Community from 'components/community/Community';
+import Community from 'components/community/Community';
 import Footer from 'components/footer/Footer';
 import Favorite from 'components/favourite/Favorite';
 
@@ -19,7 +19,7 @@ export const App = () => {
       <Arrivals />
       <Sale />
       <Favorite />
-      {/* <Community /> */}
+      <Community />
       <Footer />
     </div>
   );
