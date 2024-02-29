@@ -18,6 +18,7 @@
   line-height: 127%;
   letter-spacing: 0.03em;
 
+  text-align: center;
   color: var(--white);
 }
 
@@ -28,11 +29,12 @@
   line-height: 109%;
   letter-spacing: 0.03em;
   color: var(--white);
+  table-layout: center;
 }
 
 .wrap {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background: var(--white);
   border-radius: 8px;
@@ -62,4 +64,6 @@
   background-color: #000;
   color: #fff;
   display: block;
+  border-radius: 8px;
+  margin-right: auto;
 }
