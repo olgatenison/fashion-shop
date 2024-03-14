@@ -33,7 +33,12 @@
 .title.hovered #logo {
   fill: var(--hover-color);
 }
-
+@media screen and (max-width: 1220px) {
+  #logo {
+    width: 400px;
+    height: 150px;
+  }
+}
 @media screen and (max-width: 767px) {
   #logo {
     width: 488px;

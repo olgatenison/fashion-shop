@@ -59,7 +59,20 @@
   position: relative;
   display: inline-block;
 }
+@media screen and (max-width: 1390px) {
+  .promo__content {
+    display: flex;
+    height: 900px;
+    column-gap: 24px;
 
+    padding-left: 0;
+    border-radius: 40px;
+    background-size: cover;
+    background-image: url(../img/images/hero.jpg);
+    background-position: 65%;
+    background-color: #f4f6f5;
+  }
+}
 @media screen and (max-width: 767px) {
   .promo__content {
     display: flex;
