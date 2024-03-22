@@ -4,16 +4,15 @@ import { useState } from 'react';
 const Title = () => {
   const [hovered, setHovered] = useState(false);
   const colors = [
-    '#FF5733',
-    '#33FF57',
-    '#5733FF',
-    '#FFFF33',
-    '#33FFFF',
-    '#FF33FF',
-    '#FF3333',
-    '#33FF33',
-    '#3333FF',
-    '#999999',
+    '#ae534f',
+    '#bf924b',
+    '#b77366',
+    '#d9b879',
+    '#303425',
+    '#a84d43',
+    '#eda2a7',
+    '#8fb7c0',
+    '#f3cbc0',
   ];
 
   const handleHover = () => {
