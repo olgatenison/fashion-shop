@@ -41,6 +41,7 @@
   line-height: 1.5;
   letter-spacing: -0.05em;
   color: #fff;
+  text-transform: uppercase;
 }
 .highlight span {
   position: relative;
@@ -67,6 +68,7 @@
 .sale__btn:focus {
   background-color: #ffc700;
   color: #000;
+  border: #000 3px solid;
 }
 .sale__img {
   width: 700px;

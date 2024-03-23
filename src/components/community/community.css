@@ -67,6 +67,12 @@
   border-radius: 8px;
   margin-right: 10px;
 }
+.btn:active,
+.btn:hover,
+.btn:focus {
+  background-color: var(--yellow);
+  color: var(--text-color);
+}
 @media screen and (max-width: 1220px) {
   .community {
     padding-top: 80px;

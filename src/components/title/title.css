@@ -44,4 +44,11 @@
     width: 488px;
     height: 112px;
   }
+  svg {
+    fill: var(--yellow);
+  }
+  .bg {
+    padding: 0;
+    /* background-color: var(--yellow); */
+  }
 }

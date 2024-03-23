@@ -22,6 +22,7 @@
   font-size: 96px;
   line-height: 1.25;
 } */
+
 .promo__text {
   margin-top: 290px;
 }
@@ -47,14 +48,18 @@
   margin-left: 50px;
   background: #000000;
   border-radius: 10px;
-
+  text-transform: uppercase;
   font-weight: 500;
   font-size: 30px;
   line-height: 1.5;
   letter-spacing: -0.05em;
   color: #fff;
 }
-
+.promo__btn:active,
+.promo__btn:hover,
+.promo__btn:focus {
+  color: var(--yellow);
+}
 .highlight {
   position: relative;
   display: inline-block;
@@ -77,9 +82,10 @@
   .promo__content {
     display: flex;
     height: 900px;
-    column-gap: 24px;
-    padding-top: 60px;
-    padding-left: 10px;
+    /* column-gap: 24px;
+    padding-top: 150px;
+    padding-left: 10px; */
+
     border-radius: 40px;
     background-size: cover;
     background-image: url(../img/images/hero.jpg);
@@ -87,13 +93,30 @@
     background-color: #f4f6f5;
   }
   .promo__desc {
-    margin-top: -40px;
+    display: none;
+    /* margin-top: -40px;
     margin-bottom: 32px;
     font-weight: 400;
     font-size: 18px;
     line-height: calc(48 / 32);
     letter-spacing: -0.05em;
-    padding-left: 10px;
+    padding-left: 10px; */
+  }
+  .promo__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+
+    width: 300px;
+  }
+  .promo__text {
+    margin-top: 280px;
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
   }
 }
 
