@@ -4,48 +4,35 @@
 
 .promo__content {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   height: 900px;
-  column-gap: 24px;
-  padding-top: 68px;
-  padding-left: 120px;
+
+  padding-left: 100px;
+
   border-radius: 40px;
   background-size: cover;
   background-image: url(../img/images/hero.jpg);
   background-position: 16%;
-  background-color: #f4f6f5;
+  background-color: var(--yellow);
 }
-
-/* .promo__title {
-  max-width: 480px;
-  margin-bottom: 40px;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 1.25;
-} */
 
 .promo__text {
   margin-top: 290px;
 }
-.promo__desc {
-  margin-top: -40px;
-  margin-bottom: 32px;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: calc(48 / 32);
-  letter-spacing: -0.05em;
-  padding-left: 50px;
-}
 
 .promo__btn-wrapper {
   display: flex;
-  column-gap: 34px;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 120px;
+  margin-bottom: 70px;
 }
 
 .promo__btn {
-  padding: 18px 90px;
-  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: #000000;
   border-radius: 10px;
   text-transform: uppercase;
@@ -54,74 +41,48 @@
   line-height: 1.5;
   letter-spacing: -0.05em;
   color: #fff;
+  width: 358px;
+  height: 70px;
 }
 .promo__btn:active,
 .promo__btn:hover,
 .promo__btn:focus {
   color: var(--yellow);
 }
-.highlight {
-  position: relative;
-  display: inline-block;
-}
-@media screen and (max-width: 1390px) {
-  .promo__content {
+@media screen and (max-width: 1610px) {
+  .promo__btn-wrapper {
     display: flex;
-    height: 900px;
-    column-gap: 24px;
-
-    padding-left: 0;
-    border-radius: 40px;
-    background-size: cover;
-    background-image: url(../img/images/hero.jpg);
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 120px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .promo__content {
     background-position: 65%;
-    background-color: #f4f6f5;
+  }
+
+  .promo__btn-wrapper {
+    margin-top: 100px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 655px) {
   .promo__content {
     display: flex;
-    height: 900px;
-    /* column-gap: 24px;
-    padding-top: 150px;
-    padding-left: 10px; */
-
-    border-radius: 40px;
-    background-size: cover;
-    background-image: url(../img/images/hero.jpg);
-    background-position: 70%;
-    background-color: #f4f6f5;
-  }
-  .promo__desc {
-    display: none;
-    /* margin-top: -40px;
-    margin-bottom: 32px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: calc(48 / 32);
-    letter-spacing: -0.05em;
-    padding-left: 10px; */
-  }
-  .promo__btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 0;
-
-    width: 300px;
-  }
-  .promo__text {
-    margin-top: 280px;
-    width: 100%;
-    display: flex;
-
     flex-direction: column;
+    justify-content: flex-end;
+    height: 900px;
+    padding-left: 0px;
     align-items: center;
   }
 }
-
-@media screen and (min-width: 375px) and (max-width: 767px) {
+@media screen and (max-width: 470px) {
+  .promo__content {
+    background-position: 78%;
+  }
   .promo__btn {
-    padding: 10px 40px;
+    font-size: 24px;
+    width: 258px;
+    height: 50px;
   }
 }

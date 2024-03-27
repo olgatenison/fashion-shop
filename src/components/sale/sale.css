@@ -43,6 +43,10 @@
   color: #fff;
   text-transform: uppercase;
 }
+.highlight {
+  position: relative;
+  display: inline-block;
+}
 .highlight span {
   position: relative;
   z-index: 1;

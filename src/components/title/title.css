@@ -4,11 +4,6 @@
   overflow: hidden;
 }
 
-.bg {
-  padding: 50px;
-  /* background-color: var(--yellow); */
-}
-/* Define the keyframes for stroke-dasharray and stroke-dashoffset animation */
 @keyframes draw {
   to {
     stroke-dashoffset: 0;
@@ -19,7 +14,7 @@
 #logo path {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: draw 2s ease forwards;
+  animation: draw 3s ease forwards;
 }
 
 /* Add animation for filling the text */
@@ -33,22 +28,36 @@
 .title.hovered #logo {
   fill: var(--hover-color);
 }
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1610px) {
   #logo {
-    width: 400px;
-    height: 150px;
+    width: 558px;
+    height: 182px;
+    margin-left: -27px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1180px) {
   #logo {
-    width: 488px;
-    height: 112px;
+    width: 538px;
+    height: 162px;
+    margin-left: -43px;
   }
   svg {
     fill: var(--yellow);
   }
-  .bg {
-    padding: 0;
-    /* background-color: var(--yellow); */
+}
+
+@media screen and (max-width: 655px) {
+  #logo {
+    width: 358px;
+    height: 132px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #logo {
+    width: 258px;
+    height: 132px;
+    margin-left: 0px;
   }
 }
