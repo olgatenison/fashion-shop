@@ -8,7 +8,6 @@ const Promo = () => {
         <div className="promo__content">
           <div className="promo__text">
             <Title />
-
             <div className="promo__btn-wrapper">
               <a href="#!" className="promo__btn">
                 Shop Now

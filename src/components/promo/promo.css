@@ -75,7 +75,11 @@
     padding-left: 0px;
     align-items: center;
   }
+  .promo {
+    margin-bottom: 30px;
+  }
 }
+
 @media screen and (max-width: 470px) {
   .promo__content {
     background-position: 78%;
@@ -84,5 +88,8 @@
     font-size: 24px;
     width: 258px;
     height: 50px;
+  }
+  .promo {
+    margin-bottom: 16px;
   }
 }
