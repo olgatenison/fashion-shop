@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fashion-shop/static/css/main.e311ed03.css",
-    "main.js": "/fashion-shop/static/js/main.c5ade8d8.js",
+    "main.css": "/fashion-shop/static/css/main.c840641f.css",
+    "main.js": "/fashion-shop/static/js/main.84c1caa7.js",
     "static/media/hero.jpg": "/fashion-shop/static/media/hero.0b81a1e2325a172faa8b.jpg",
     "static/media/y_woman.png": "/fashion-shop/static/media/y_woman.bed4ff6b5729e52664de.png",
     "static/media/promo-02.jpg": "/fashion-shop/static/media/promo-02.3e846cc7d4a7a63d5d5b.jpg",
@@ -9,17 +9,20 @@
     "static/media/cat-02.jpg": "/fashion-shop/static/media/cat-02.0bf382a6c6f02dfae957.jpg",
     "static/media/cat-03.jpg": "/fashion-shop/static/media/cat-03.2925c4da45ecf2399782.jpg",
     "static/media/cat-01.jpg": "/fashion-shop/static/media/cat-01.4e50ca00ab39e7a90096.jpg",
+    "static/media/esprit.png": "/fashion-shop/static/media/esprit.f8325a146152a8f44b03.png",
+    "static/media/hmlogo.png": "/fashion-shop/static/media/hmlogo.20de471a2ab946842311.png",
+    "static/media/zara.png": "/fashion-shop/static/media/zara.268d739234f578c5e7cc.png",
     "static/media/inst.svg": "/fashion-shop/static/media/inst.9ba348d1fbf632353c844117681505b5.svg",
     "static/media/tw.svg": "/fashion-shop/static/media/tw.aa13c5453fa1e117763998ddd670b866.svg",
     "static/media/in.svg": "/fashion-shop/static/media/in.ddd68a3b7943597e70772ddc7488b7db.svg",
     "index.html": "/fashion-shop/index.html",
     "static/media/arrow.svg": "/fashion-shop/static/media/arrow.9d4f9d5e31a0e0b90396898109d19746.svg",
     "static/media/fb.svg": "/fashion-shop/static/media/fb.d494ae21342c1bc147ec753b9eeecc37.svg",
-    "main.e311ed03.css.map": "/fashion-shop/static/css/main.e311ed03.css.map",
-    "main.c5ade8d8.js.map": "/fashion-shop/static/js/main.c5ade8d8.js.map"
+    "main.c840641f.css.map": "/fashion-shop/static/css/main.c840641f.css.map",
+    "main.84c1caa7.js.map": "/fashion-shop/static/js/main.84c1caa7.js.map"
   },
   "entrypoints": [
-    "static/css/main.e311ed03.css",
-    "static/js/main.c5ade8d8.js"
+    "static/css/main.c840641f.css",
+    "static/js/main.84c1caa7.js"
   ]
 }
