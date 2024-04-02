@@ -29,6 +29,15 @@ const Brands = () => {
           <img className="brands__img" src={zara} alt="" />
           <img className="brands__img" src={esprit} alt="" />
         </div>
+        <div className="logos-slide">
+          <img className="brands__img" src={hmlogo} alt="" />
+          <img className="brands__img" src={gap} alt="" />
+          <img className="brands__img" src={lacoste} alt="" />
+          <img className="brands__img" src={levis} alt="" />
+          <img className="brands__img" src={reserved} alt="" />
+          <img className="brands__img" src={zara} alt="" />
+          <img className="brands__img" src={esprit} alt="" />
+        </div>
       </div>
     </section>
   );

@@ -6,6 +6,7 @@
 .logos-slide {
   display: inline-block;
   animation: 8s slide infinite linear;
+  gap: 45px;
 }
 
 .logos {
@@ -26,4 +27,17 @@
   to {
     transform: translateX(-100%);
   }
+}
+@media screen and (max-width: 1220px) {
+  .logos-slide img {
+    margin: 0 20px; /* Уменьшите отступы между изображениями по мере необходимости */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logos-slide img {
+    margin: 0 5px; /* Уменьшите отступы между изображениями по мере необходимости */
+  }
+}
+@media screen and (max-width: 375px) {
 }
