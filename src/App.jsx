@@ -7,7 +7,6 @@ import Sale from 'components/sale/Sale';
 import Community from 'components/community/Community';
 import Footer from 'components/footer/Footer';
 import Favorite from 'components/favourite/Favorite';
-import Tikker from 'components/tikker/Tikker';
 
 export const App = () => {
   return (
@@ -19,7 +18,7 @@ export const App = () => {
       <Arrivals />
       <Sale />
       <Favorite />
-      <Tikker />
+
       <Community />
       <Footer />
     </div>

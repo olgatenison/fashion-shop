@@ -5,7 +5,6 @@
 
 .logos-slide {
   display: inline-block;
-  animation: slide 10s linear infinite;
   flex-shrink: 0;
 }
 
@@ -14,19 +13,4 @@
   white-space: nowrap;
   padding: 50px 0;
   background-color: var(--yellow);
-}
-
-.logos:hover .logos-slide {
-  animation-play-state: paused; /* Приостановить анимацию при наведении */
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(0); /* Начальное положение */
-  }
-  100% {
-    transform: translateX(
-      calc(-100% - 65px)
-    ); /* Положение в конце строки + отступ между логотипами */
-  }
 }

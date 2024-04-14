@@ -24,7 +24,11 @@
   letter-spacing: 0.03em;
   color: var(--white);
 }
-
+.footer__title span {
+  /* margin-left: -10px;
+  margin-right: -10px; */
+  transition: all 0.3s ease 0s;
+}
 .footer__desc {
   font-family: var(--font-family);
   font-weight: 400;
@@ -82,7 +86,11 @@
   position: relative;
   display: inline-block;
 }
-
+.footer__title:active span,
+.footer__title:hover span,
+.footer__title:active span {
+  color: var(--yellow);
+}
 /* .footer__desc span::after {
   position: absolute;
   top: 20px;

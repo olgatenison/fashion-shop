@@ -10,7 +10,9 @@ export default function Footer() {
       <section className="footer">
         <div className="conteiner">
           <div className="footer__social">
-            <h3 className="footer__title">U.CLOTHES</h3>
+            <h3 className="footer__title">
+              U<span>.</span>CLOTHES
+            </h3>
             <div className="footer__desc">
               Complete your style with <span>awesome</span> <br /> clothes from
               us.

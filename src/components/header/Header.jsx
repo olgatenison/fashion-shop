@@ -18,7 +18,7 @@ function Header() {
       <div className="container">
         <div className="header__row">
           <div className="header__logo">
-            <span>U.CLOTHES</span>
+            U<span>.</span>CLOTHES
           </div>
           <nav className="header__nav">
             <ul>

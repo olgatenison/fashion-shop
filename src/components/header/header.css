@@ -17,12 +17,18 @@
   cursor: pointer;
 }
 
-.header__logo span {
+.header__logo {
   font-weight: 900;
   font-size: 40px;
   line-height: 1.5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.header__logo span {
+  margin-left: -10px;
+  margin-right: -10px;
+  transition: all 0.3s ease 0s;
 }
 
 .header__nav {
@@ -64,9 +70,6 @@ a.header__nav-btn {
   display: none;
 }
 
-.header__logo:hover,
-.header__logo:focus,
-.header__logo:active,
 .header__link a:hover,
 .header__link a:focus,
 .header__link a:active {
@@ -78,7 +81,11 @@ a.header__nav-btn {
   background-color: var(--yellow);
   color: var(--text-color);
 }
-
+.header__logo:hover span,
+.header__logo:focus span,
+.header__logo:active span {
+  color: var(--yellow);
+}
 /* -------------media--------------- */
 /* -------------media--------------- */
 /* -------------media--------------- */
