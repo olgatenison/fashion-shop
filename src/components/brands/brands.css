@@ -1,12 +1,12 @@
 .logos-slide img {
   height: 50px;
-  margin: 0 45px;
+  padding: 0 65px;
 }
 
 .logos-slide {
   display: inline-block;
-  animation: 8s slide infinite linear;
-  gap: 45px;
+  animation: slide 10s linear infinite;
+  flex-shrink: 0;
 }
 
 .logos {
@@ -17,27 +17,16 @@
 }
 
 .logos:hover .logos-slide {
-  animation-play-state: paused;
+  animation-play-state: paused; /* Приостановить анимацию при наведении */
 }
 
 @keyframes slide {
-  from {
-    transform: translateX(0);
+  0% {
+    transform: translateX(0); /* Начальное положение */
   }
-  to {
-    transform: translateX(-100%);
+  100% {
+    transform: translateX(
+      calc(-100% - 65px)
+    ); /* Положение в конце строки + отступ между логотипами */
   }
-}
-@media screen and (max-width: 1220px) {
-  .logos-slide img {
-    margin: 0 20px; /* Уменьшите отступы между изображениями по мере необходимости */
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .logos-slide img {
-    margin: 0 5px; /* Уменьшите отступы между изображениями по мере необходимости */
-  }
-}
-@media screen and (max-width: 375px) {
 }
