@@ -118,7 +118,7 @@ a.header__nav-btn {
 /* -------------media--------------- */
 /* -------------media--------------- */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 840px) {
   .header__logo {
     margin-left: 15px;
   }
