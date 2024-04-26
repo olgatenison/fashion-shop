@@ -1,3 +1,3 @@
 export const Catalouge = () => {
-  return <></>;
+  return <>Catalouge </>;
 };
