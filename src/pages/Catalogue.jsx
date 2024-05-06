@@ -1,3 +1,5 @@
 export const Catalouge = () => {
-  return <>Catalougeяпсайук пмгр </>;
+  return (
+    <>Catalougdfj hbshdfb jhjsbd jhsdb hjs dhbsdhsdhshd hsd shdeяпсайук пмгр </>
+  );
 };
