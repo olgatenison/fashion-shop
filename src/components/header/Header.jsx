@@ -23,13 +23,14 @@ function Header() {
           <nav className="header__nav">
             <ul>
               <li className="header__link">
-                <a href="#!">CATALOGUE</a>
+                <a href="/">HOME</a>
               </li>
               <li className="header__link">
-                <a href="#!">FASHION</a>
+                <a href="/catalogue">CATALOGUE</a>
               </li>
+
               <li className="header__link">
-                <a href="#!">FAVOURITE</a>
+                <a href="/favourites">FAVOURITE</a>
               </li>
               <li className="header__link">
                 <a href="#!">LIFESTYLE</a>
