@@ -1,0 +1,19 @@
+.item__wrapper {
+  background-color: aqua;
+  height: 100vh;
+}
+
+.item__wrapper:hover .item__icon {
+  animation: slide 0.5s ease-in-out;
+}
+@keyframes slide {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: -20px;
+  }
+  100% {
+    left: 0;
+  }
+}
