@@ -33,7 +33,7 @@ function Header() {
                 <a href="/favourites">FAVOURITE</a>
               </li>
               <li className="header__link">
-                <a href="#!">LIFESTYLE</a>
+                <a href="#!">BAG: 100</a>
               </li>
               <li>
                 <a href="#!" className="header__nav-btn">

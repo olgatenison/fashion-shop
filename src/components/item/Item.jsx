@@ -8,6 +8,10 @@ const Item = () => {
       <div className={styles.txt__wrapper}>
         <div className={styles.item__name}>
           <h3 className={styles.item__title}>Dioriviera Jacket</h3>
+          <svg className={styles.icon}>
+            <use href="./../img/icons/Heart.svg" />
+          </svg>
+
           <p className={styles.item__subtitle}>
             White and Aquamarina Cotton Denim with Toile de Jouy Sauvage Motif
           </p>
@@ -15,7 +19,7 @@ const Item = () => {
 
         <a href="#!" className={styles.item__btn}>
           <div>Add to card</div>
-          <div>2 400,00 €</div>
+          <div className={styles.item__price}>2 400,00 €</div>
         </a>
 
         <div className={styles.item__tabs}>
