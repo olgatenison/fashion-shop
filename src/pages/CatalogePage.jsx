@@ -4,7 +4,9 @@ import Item from '../components/item/Item';
 export const CatalogePage = () => {
   return (
     <>
-      <Item></Item>
+      <div className="container">
+        <Item />
+      </div>
     </>
   );
 };

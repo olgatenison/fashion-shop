@@ -1,19 +1,82 @@
 .item__wrapper {
   background-color: aqua;
   height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 35px;
 }
 
-.item__wrapper:hover .item__icon {
-  animation: slide 0.5s ease-in-out;
+.img__wrapper {
+  /* width: 600px; */
+  width: 50%;
+  height: 500px;
+  background-color: grey;
+  border-radius: 20px;
+  flex-shrink: 1;
+  margin-top: 10px;
+  margin-bottom: 28px;
+  border-radius: 20px;
 }
-@keyframes slide {
-  0% {
-    left: 0;
-  }
-  50% {
-    left: -20px;
-  }
-  100% {
-    left: 0;
-  }
+.txt__wrapper {
+  width: 50%;
+}
+.item__title {
+  text-transform: uppercase;
+  margin-bottom: 7px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.56;
+  letter-spacing: -0.04em;
+  color: #000;
+}
+.item__subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+
+  color: var(--gray);
+  max-width: 700px;
+}
+.item__btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  align-items: center;
+  background: #000000;
+  border-radius: 35px;
+
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+
+  color: #fff;
+  width: 100%;
+  height: 70px;
+  cursor: pointer;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.item__btn div {
+  display: block;
+}
+.tabs__txt {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+
+  color: var(--gray);
+  max-width: 600px;
+}
+.tabs__title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
 }
