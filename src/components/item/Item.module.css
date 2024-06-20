@@ -1,5 +1,4 @@
 .item__wrapper {
-  /* background-color: aqua; */
   margin-bottom: 180px;
   display: flex;
   flex-direction: row;
@@ -8,7 +7,6 @@
 }
 
 .img__wrapper {
-  /* width: 600px; */
   width: 50%;
   height: 500px;
   background-color: grey;
@@ -16,53 +14,64 @@
   flex-shrink: 1;
   margin-top: 10px;
   margin-bottom: 28px;
-  border-radius: 20px;
 }
+
 .txt__wrapper {
   width: 50%;
   padding-left: 25px;
 }
+
 .item__title {
   text-transform: uppercase;
   margin-bottom: 7px;
   font-weight: 500;
   font-size: 32px;
   line-height: 1.56;
-
   color: #000;
   margin-top: 65px;
   margin-bottom: 35px;
 }
-
-.icon {
+/* .item__like {
   width: 32px;
   height: 32px;
-  fill: #000;
-  background-color: #000;
+  background-image: url('../img/icons/heart.png');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  cursor: pointer; 
 }
+
+.item__like:hover {
+  background-image: url('../img/icons/hover.png'); 
+}
+.icon svg {
+  width: 32px;
+  height: 32px;
+
+  stroke: #000;
+  fill: 'transparent';
+  transition: all 0.3s ease;
+} */
+
 .item__subtitle {
   font-weight: 300;
   font-size: 24px;
   line-height: 1.5;
-
   color: var(--gray);
   max-width: 500px;
   margin-bottom: 50px;
 }
+
 .item__btn {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   align-items: center;
   background: #000000;
   border-radius: 7px;
-
   font-weight: 500;
   font-size: 22px;
   line-height: 1.5;
   letter-spacing: 0.01em;
-
   color: #fff;
   width: 100%;
   height: 70px;
@@ -71,6 +80,7 @@
   padding-right: 40px;
   margin-bottom: 65px;
 }
+
 .item__btn:hover .item__price,
 .item__btn:active .item__price,
 .item__btn:focus .item__price {
@@ -80,27 +90,68 @@
 .item__btn div {
   display: block;
 }
+
 .tabs__txt {
   font-weight: 300;
   font-size: 24px;
   line-height: 1.5;
-
   color: var(--gray);
+  margin-top: 40px;
 }
-.tabs__txt span {
+
+.tabs__txt div {
   display: block;
   margin-bottom: 30px;
 }
-
+.tabs__txt span {
+  color: #000;
+  font-weight: 400;
+}
 .tabs__title {
   font-weight: 500;
   font-size: 22px;
   line-height: 1.5;
   letter-spacing: 0.01em;
   margin-bottom: 20px;
+  cursor: pointer;
+  color: var(--gray);
+  position: relative;
+  transition: all 0.3s ease 0s;
 }
+
 .tabs__title:hover,
 .tabs__title:focus,
 .tabs__title:active {
   color: var(--gray);
+}
+
+.tabs__title.active {
+  color: black;
+}
+
+.tabs__title.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -22px;
+  width: 100%;
+  height: 4px;
+  background-color: black;
+}
+
+.tabs__content {
+  display: none;
+  transition: all 0.3s ease 0s;
+}
+
+.tabs__content.active {
+  display: block;
+}
+
+.tabs__nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
 }
