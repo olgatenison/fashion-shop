@@ -26,12 +26,11 @@ const Item = () => {
           <div>
             <h4 className={styles.tabs__title}>DESCRIPTION</h4>
             <p className={styles.tabs__txt}>
-              Part of the Dioriviera capsule, the jacket presents the Toile de
-              Jouy Sauvage motif, a new take on the hallmark House pattern. Made
-              in white and aquamarina cotton denim, it has a cropped silhouette
-              accented by an embroidered bee, CD leather jacron label on the
-              back and two flap pockets on the front. The jacket will pair with
-              the matching shorts to complete the look.
+              U. CLOTHES - is a brand that creates unique clothing combining
+              quality, style, and comfort. Each of our products is made from
+              high-quality materials and designed with contemporary fashion
+              trends in mind. We strive to offer our customers only the best, so
+              you can feel confident and comfortable in any situation.
             </p>
           </div>
           <div>
@@ -44,10 +43,13 @@ const Item = () => {
                 please consult our FAQs.
               </span>
               <span>
-                Free standard delivery Dior offers two rapid and secure delivery
-                options Standard delivery 3-4 working days: Free Express
-                delivery 1-2 working days: € 9.95 Delivery timing is estimated
-                from the time your order is shipped.
+                Free standard delivery our offers two rapid and secure delivery
+                options
+                <br />
+                Standard delivery 3-4 working days: Free
+                <br /> Express delivery 1-2 working days: € 9.95 <br />
+                Delivery timing is estimated from the time your order is
+                shipped.
               </span>
               <span>
                 Dispatch within 24 hours Orders are prepared and dispatched the
