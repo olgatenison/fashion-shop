@@ -11,7 +11,7 @@ const Item = () => {
       <div className={styles.txt__wrapper}>
         <div className={styles.item__name}>
           <div>
-            <h3 className={styles.item__title}>Dioriviera Jacket</h3>
+            <h3 className={styles.item__title}>Dioriviera Jacket rss</h3>
             {/* 
             <img src={heartIcon} alt="Heart Icon" /> */}
           </div>
