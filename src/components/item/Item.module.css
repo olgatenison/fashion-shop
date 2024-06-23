@@ -20,13 +20,21 @@
   width: 50%;
   padding-left: 25px;
 }
-
+.item__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__icon {
+  padding-top: 30px;
+}
 .item__title {
   text-transform: uppercase;
   margin-bottom: 7px;
   font-weight: 500;
   font-size: 32px;
-  line-height: 1.56;
+
   color: #000;
   margin-top: 65px;
   margin-bottom: 35px;

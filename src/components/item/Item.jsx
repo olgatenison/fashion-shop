@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Item.module.css';
-// import heartIcon from '../img/icons/heart.png';
+import heartIcon from './../../img/icons/heart.png';
 const Item = () => {
   const [activeTab, setActiveTab] = useState('description');
 
@@ -10,15 +10,21 @@ const Item = () => {
 
       <div className={styles.txt__wrapper}>
         <div className={styles.item__name}>
-          <div>
-            <h3 className={styles.item__title}>Dioriviera Jacket rss</h3>
-            {/* 
-            <img src={heartIcon} alt="Heart Icon" /> */}
+          <div className={styles.item__row}>
+            <h3 className={styles.item__title}>Dioriviera Jacket </h3>
+            <div className={styles.card__icon}>
+              <img src={heartIcon} alt="like" />
+            </div>
           </div>
           <p className={styles.item__subtitle}>
             White and Aquamarina Cotton Denim with Toile de Jouy Sauvage Motif
           </p>
         </div>
+
+        {/* <a href="#!" className={styles.item__btn}>
+          <div>Select your size</div>
+          <div className={styles.item__price}>2 400,00 €</div>
+        </a> */}
 
         <a href="#!" className={styles.item__btn}>
           <div>Add to cart</div>
