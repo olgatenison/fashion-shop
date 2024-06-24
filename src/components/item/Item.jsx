@@ -21,15 +21,25 @@ const Item = () => {
           </p>
         </div>
 
-        {/* <a href="#!" className={styles.item__btn}>
-          <div>Select your size</div>
-          <div className={styles.item__price}>2 400,00 €</div>
-        </a> */}
-
         <a href="#!" className={styles.item__btn}>
           <div>Add to cart</div>
           <div className={styles.item__price}>2 400,00 €</div>
         </a>
+
+        <div className={styles.item__size}>
+          <a href="#!" className={styles.item__sizetitle}>
+            Select your size
+          </a>
+          <div className={styles.item__yoursize}>ONE SIZE</div>
+          {/* <div className={styles.item__list}>
+            <li className={styles.item__listitem}>XS</li>
+            <li className={styles.item__listitem}>S</li>
+            <li className={styles.item__listitem}>M</li>
+            <li className={styles.item__listitem}>L</li>
+            <li className={styles.item__listitem}>XL</li>
+            <li className={styles.item__listitem}>XXL</li>
+          </div> */}
+        </div>
 
         <div className={styles.tabs__nav}>
           <div
