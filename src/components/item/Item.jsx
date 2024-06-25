@@ -28,7 +28,7 @@ const Item = () => {
 
         <div className={styles.item__size}>
           <a href="#!" className={styles.item__sizetitle}>
-            Select your size ышшт
+            Select your size
           </a>
           <div className={styles.item__yoursize}>ONE SIZE</div>
           {/* <div className={styles.item__list}>
