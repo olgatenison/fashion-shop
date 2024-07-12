@@ -84,6 +84,18 @@
 .card__muted:active {
   color: var(--l-gray);
 }
+/* -------------media--------------- */
+/* -------------media--------------- */
+/* -------------media--------------- */
+/* -------------media--------------- */
+/* -------------media--------------- */
+/* -------------media--------------- */
+
+@media screen and (max-width: 1220px) {
+  .card__muted {
+    font-size: 20px;
+  }
+}
 
 @media screen and (max-width: 375px) {
   .card__title {
