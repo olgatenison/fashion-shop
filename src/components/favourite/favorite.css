@@ -57,6 +57,7 @@
   }
   .favorite__subtitle {
     max-width: 800px;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 767px) {

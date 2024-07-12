@@ -92,11 +92,19 @@
 /* -------------media--------------- */
 
 @media screen and (max-width: 1220px) {
+  .card__title {
+    font-size: 28px;
+  }
   .card__muted {
     font-size: 20px;
+    line-height: 1;
   }
 }
-
+@media screen and (max-width: 767px) {
+  .card__title {
+    font-size: 28px;
+  }
+}
 @media screen and (max-width: 375px) {
   .card__title {
     font-size: 24px;

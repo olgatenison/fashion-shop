@@ -212,4 +212,32 @@
   .item__subtitle {
     font-size: 20px;
   }
+  .item__title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .item__title {
+    margin-top: 20px;
+  }
+
+  .item__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .img__wrapper,
+  .txt__wrapper {
+    width: 100%;
+  }
+  .card__icon {
+    padding-top: 0px;
+    padding-right: 40px;
+  }
+  .tabs__title:last-child {
+    padding-right: 40px;
+  }
+  .tabs__content {
+    padding-right: 40px;
+  }
 }
